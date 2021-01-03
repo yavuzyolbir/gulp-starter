@@ -19,7 +19,7 @@ $ npm install
 $ gulp
 ```
 
-Have fun.
+Have fun. :wink:
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
@@ -27,6 +27,6 @@ Have fun.
 
    [Gulp File Include]: <https://github.com/haoxins/gulp-file-include#readme>
    [Vanilla LazyLoad]: <https://github.com/verlok/vanilla-lazyload>
-   [Twitter Bootstrap]: <https://getbootstrap.com>
+   [Twitter Bootstrap]: <https://github.com/twbs>
    [ZeptoJS]: <https://github.com/madrobby/zepto>
    [Gulp Sass]: <https://github.com/dlmanning/gulp-sass>
