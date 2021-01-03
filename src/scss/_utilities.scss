@@ -1,0 +1,50 @@
+// UTILITIES
+
+.d-flex {
+    display: flex !important;
+}
+.d-none {
+    display: none !important;
+}
+.d-lg-none {
+    @include for-only($md) {
+        display: none !important;
+    }
+}
+.d-lg-block {
+    @include for-only($md) {
+        display: block !important;
+    }
+}
+.d-lg-flex {
+    @include for-only($md) {
+        display: flex !important;
+    }
+}
+.d-lg-inline-block {
+    @include for-only($md) {
+        display: inline-block !important;
+    }
+}
+.d-lg-inline-flex {
+    @include for-only($md) {
+        display: inline-flex !important;
+    }
+}
+.d-lg-inline {
+    @include for-only($md) {
+        display: inline !important;
+    }
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}

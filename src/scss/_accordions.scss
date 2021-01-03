@@ -1,0 +1,40 @@
+// ACCORDIONS
+
+.accordion-box {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-button {
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    font-weight: 500;
+    padding: 14px 60px 14px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 70px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='14px' viewBox='0 0 14 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eplus%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M8,0 L8,6 L14,6 L14,8 L8,8 L8,14 L6,14 L6,8 L0,8 L0,6 L6,6 L6,0 L8,0 Z' id='plus' fill='%23434343' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center right 5px;
+    .active & {
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Etimes%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M7,-1 L7,5 L13,5 L13,7 L7,7 L7,13 L5,13 L5,7 L-1,7 L-1,5 L5,5 L5,-1 L7,-1 Z' id='times' fill='%23434343' fill-rule='nonzero' transform='translate(6.000000, 6.000000) rotate(-315.000000) translate(-6.000000, -6.000000) '%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    }
+}
+
+.accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    font-size: 12px;
+    transition: max-height 0.3s 0s ease;
+    * {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.accordion-panel-inner {
+    padding-bottom: 16px;
+}

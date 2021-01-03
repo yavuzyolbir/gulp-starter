@@ -1,0 +1,6 @@
+// MIXINS
+@mixin for-only($breakpoint) {
+    @media (min-width: $breakpoint) {
+        @content;
+    }
+}

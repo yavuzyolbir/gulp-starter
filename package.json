@@ -1,0 +1,27 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public_html/index.html",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-beautify": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.2.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Efabrika",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "vanilla-lazyload": "^17.3.0",
+    "zepto": "^1.2.0"
+  }
+}
