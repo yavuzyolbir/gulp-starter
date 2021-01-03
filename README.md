@@ -12,7 +12,7 @@ I wanted to share our gulp starter project for using html projects.
 
 ### Installation
 
-Just download zip file and
+Just [download](http://github.com/yavuzyolbir/gulp-starter/archive/master.zip) zip file and
 
 ```sh
 $ npm install
