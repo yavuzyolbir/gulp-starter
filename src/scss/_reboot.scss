@@ -1,13 +1,14 @@
 //REBOOT
-body{
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans',"Helvetica Neue",Arial,sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
 }
 
-a,button{
-  &:focus{
+a,
+button {
+  &:focus {
     outline: none;
   }
 }
@@ -27,6 +28,6 @@ picture {
   pointer-events: none;
 }
 
-figure{
+figure {
   margin: 0;
 }
